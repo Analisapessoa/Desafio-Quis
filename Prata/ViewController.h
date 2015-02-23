@@ -9,7 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSArray *perguntas;
+    NSArray *respostas;
+    NSArray *imagens;
+    int indice;
+}
 
+
+@property (weak, nonatomic) IBOutlet UILabel *pergunta;
+
+@property (weak, nonatomic) IBOutlet UILabel *resposta;
+
+
+- (IBAction)mostrarPergunta:(id)sender;
+- (IBAction)mostrarResposta:(id)sender;
+- (void)trocarImagem;
+@property (weak, nonatomic) IBOutlet UIImageView *imagemResposta;
 
 @end
 
