@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13831C51A9B5A8B00EEB144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13831C41A9B5A8B00EEB144 /* main.m */; };
+		A13831C81A9B5A8B00EEB144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13831C71A9B5A8B00EEB144 /* AppDelegate.m */; };
+		A13831CB1A9B5A8B00EEB144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13831CA1A9B5A8B00EEB144 /* ViewController.m */; };
+		A13831CE1A9B5A8B00EEB144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13831CC1A9B5A8B00EEB144 /* Main.storyboard */; };
+		A13831D01A9B5A8B00EEB144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13831CF1A9B5A8B00EEB144 /* Images.xcassets */; };
+		A13831D31A9B5A8B00EEB144 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13831D11A9B5A8B00EEB144 /* LaunchScreen.xib */; };
+		A13831DF1A9B5A8B00EEB144 /* PrataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13831DE1A9B5A8B00EEB144 /* PrataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13831D91A9B5A8B00EEB144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13831B71A9B5A8B00EEB144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13831BE1A9B5A8B00EEB144;
+			remoteInfo = Prata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13831BF1A9B5A8B00EEB144 /* Prata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13831C31A9B5A8B00EEB144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13831C41A9B5A8B00EEB144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13831C61A9B5A8B00EEB144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13831C71A9B5A8B00EEB144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A13831C91A9B5A8B00EEB144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A13831CA1A9B5A8B00EEB144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13831CD1A9B5A8B00EEB144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13831CF1A9B5A8B00EEB144 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A13831D21A9B5A8B00EEB144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A13831D81A9B5A8B00EEB144 /* PrataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13831DD1A9B5A8B00EEB144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13831DE1A9B5A8B00EEB144 /* PrataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13831BC1A9B5A8B00EEB144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13831D51A9B5A8B00EEB144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13831B61A9B5A8B00EEB144 = {
+			isa = PBXGroup;
+			children = (
+				A13831C11A9B5A8B00EEB144 /* Prata */,
+				A13831DB1A9B5A8B00EEB144 /* PrataTests */,
+				A13831C01A9B5A8B00EEB144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13831C01A9B5A8B00EEB144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13831BF1A9B5A8B00EEB144 /* Prata.app */,
+				A13831D81A9B5A8B00EEB144 /* PrataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13831C11A9B5A8B00EEB144 /* Prata */ = {
+			isa = PBXGroup;
+			children = (
+				A13831C61A9B5A8B00EEB144 /* AppDelegate.h */,
+				A13831C71A9B5A8B00EEB144 /* AppDelegate.m */,
+				A13831C91A9B5A8B00EEB144 /* ViewController.h */,
+				A13831CA1A9B5A8B00EEB144 /* ViewController.m */,
+				A13831CC1A9B5A8B00EEB144 /* Main.storyboard */,
+				A13831CF1A9B5A8B00EEB144 /* Images.xcassets */,
+				A13831D11A9B5A8B00EEB144 /* LaunchScreen.xib */,
+				A13831C21A9B5A8B00EEB144 /* Supporting Files */,
+			);
+			path = Prata;
+			sourceTree = "<group>";
+		};
+		A13831C21A9B5A8B00EEB144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13831C31A9B5A8B00EEB144 /* Info.plist */,
+				A13831C41A9B5A8B00EEB144 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A13831DB1A9B5A8B00EEB144 /* PrataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13831DE1A9B5A8B00EEB144 /* PrataTests.m */,
+				A13831DC1A9B5A8B00EEB144 /* Supporting Files */,
+			);
+			path = PrataTests;
+			sourceTree = "<group>";
+		};
+		A13831DC1A9B5A8B00EEB144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13831DD1A9B5A8B00EEB144 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13831BE1A9B5A8B00EEB144 /* Prata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13831E21A9B5A8B00EEB144 /* Build configuration list for PBXNativeTarget "Prata" */;
+			buildPhases = (
+				A13831BB1A9B5A8B00EEB144 /* Sources */,
+				A13831BC1A9B5A8B00EEB144 /* Frameworks */,
+				A13831BD1A9B5A8B00EEB144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prata;
+			productName = Prata;
+			productReference = A13831BF1A9B5A8B00EEB144 /* Prata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13831D71A9B5A8B00EEB144 /* PrataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13831E51A9B5A8B00EEB144 /* Build configuration list for PBXNativeTarget "PrataTests" */;
+			buildPhases = (
+				A13831D41A9B5A8B00EEB144 /* Sources */,
+				A13831D51A9B5A8B00EEB144 /* Frameworks */,
+				A13831D61A9B5A8B00EEB144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13831DA1A9B5A8B00EEB144 /* PBXTargetDependency */,
+			);
+			name = PrataTests;
+			productName = PrataTests;
+			productReference = A13831D81A9B5A8B00EEB144 /* PrataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13831B71A9B5A8B00EEB144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ana Elisa Pessoa Aguiar";
+				TargetAttributes = {
+					A13831BE1A9B5A8B00EEB144 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A13831D71A9B5A8B00EEB144 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A13831BE1A9B5A8B00EEB144;
+					};
+				};
+			};
+			buildConfigurationList = A13831BA1A9B5A8B00EEB144 /* Build configuration list for PBXProject "Prata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13831B61A9B5A8B00EEB144;
+			productRefGroup = A13831C01A9B5A8B00EEB144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13831BE1A9B5A8B00EEB144 /* Prata */,
+				A13831D71A9B5A8B00EEB144 /* PrataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13831BD1A9B5A8B00EEB144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13831CE1A9B5A8B00EEB144 /* Main.storyboard in Resources */,
+				A13831D31A9B5A8B00EEB144 /* LaunchScreen.xib in Resources */,
+				A13831D01A9B5A8B00EEB144 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13831D61A9B5A8B00EEB144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13831BB1A9B5A8B00EEB144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13831CB1A9B5A8B00EEB144 /* ViewController.m in Sources */,
+				A13831C81A9B5A8B00EEB144 /* AppDelegate.m in Sources */,
+				A13831C51A9B5A8B00EEB144 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13831D41A9B5A8B00EEB144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13831DF1A9B5A8B00EEB144 /* PrataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13831DA1A9B5A8B00EEB144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13831BE1A9B5A8B00EEB144 /* Prata */;
+			targetProxy = A13831D91A9B5A8B00EEB144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13831CC1A9B5A8B00EEB144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13831CD1A9B5A8B00EEB144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13831D11A9B5A8B00EEB144 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13831D21A9B5A8B00EEB144 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13831E01A9B5A8B00EEB144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13831E11A9B5A8B00EEB144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13831E31A9B5A8B00EEB144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A13831E41A9B5A8B00EEB144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13831E61A9B5A8B00EEB144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PrataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prata.app/Prata";
+			};
+			name = Debug;
+		};
+		A13831E71A9B5A8B00EEB144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PrataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prata.app/Prata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13831BA1A9B5A8B00EEB144 /* Build configuration list for PBXProject "Prata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13831E01A9B5A8B00EEB144 /* Debug */,
+				A13831E11A9B5A8B00EEB144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13831E21A9B5A8B00EEB144 /* Build configuration list for PBXNativeTarget "Prata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13831E31A9B5A8B00EEB144 /* Debug */,
+				A13831E41A9B5A8B00EEB144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A13831E51A9B5A8B00EEB144 /* Build configuration list for PBXNativeTarget "PrataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13831E61A9B5A8B00EEB144 /* Debug */,
+				A13831E71A9B5A8B00EEB144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13831B71A9B5A8B00EEB144 /* Project object */;
+}
